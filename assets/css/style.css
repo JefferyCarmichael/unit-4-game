@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+  }
+
+  #title,#rules,#score,#jewelbox,#title2,#player{
+    margin-top: 8px;
+}
+
+#rules{
+    font-size: 20px;
+}
+    
+#win{
+    margin-left: 10px; 
+    font-size: 20px;
+}
+
+#score{
+    font-size: 28px;
+}
+
+#subtitle{
+    font-size: 44px;
+    
+}
+
+#player,#title2{    
+    font-size: 22px;
+}
+
+body{
+    background-image: url("../images/blue-625112_1920.jpg");
+    opacity: .9;
+}
