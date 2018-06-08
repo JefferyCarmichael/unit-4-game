@@ -2,7 +2,9 @@
 
 // Initial setup for game board.
 var target, jewel1, jewel2, jewel3, jewel4;
-var total, wins, losses = 0;
+var total = 0;
+var losses = 0;
+var wins =0;
 shuffle();
 
 // Click functions for the 4 jewels
@@ -44,7 +46,6 @@ function play() {
         wins++;
         $("#current-score-counter").html(total);
         alert(total + ": you win");
-        console.log("wins:" + wins);
         $("#win-counter").html(wins);
         shuffle();
     }
@@ -69,6 +70,6 @@ function shuffle() {
     total = 0;
     $("#random-number").html(target);
     $("#current-score-counter").html(total);
-
+   
 }
 
