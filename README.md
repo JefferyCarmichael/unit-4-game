@@ -1,7 +1,8 @@
-#**Crystal Collector!**
+# **Crystal Collector!**
+![GitHub Logo](/assets/images/crystal.jpg)
+### Crystal Collector is a numerical guessing game where the player will guess with numbers.
 
-##Crystal Collector is a numerical guessing game where the player will guess with numbers.
-
+---
 **Game Rules:**
 * The player will be shown a random number at the start of the game.
 * There will be four crystals displayed on the page.
@@ -15,7 +16,7 @@
    the value of the crystals are changed and the game is automatically restarted.
  
 
-
+---
 **Game design notes:**
 * Each crystal should have a random hidden value between 1 - 12.
 * The random number shown at the beginning of the game should be between 19 - 120.
