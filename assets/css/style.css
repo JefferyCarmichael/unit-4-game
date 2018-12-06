@@ -79,31 +79,6 @@ img {
     box-shadow: inset 0 0 15px rgb(61, 58, 58);    
  }
 
- @media screen and (max-width: 760px){
-    #rules{
-        font-size: 14px;
-        line-height: 15px;
-    }
-    header{
-        font-size: 25px !important;
-    }
-    #score{
-        font-size:16px;
-    }
-    #win{
-        font-size:14px;
-        margin-left: 1px;
-    }
-
-    #subtitle,#player{
-        font-size:18px;
-    }
-
-    #current-score{
-        font-size:16px;
-    }
-
- }
 
  @media screen and (max-width: 998px){
     #rules{
@@ -125,4 +100,30 @@ img {
     #current-score{
         font-size:18px;
     }
+ }
+
+ @media screen and (max-width: 800px){
+    #rules{
+        font-size: 14px;
+        line-height: 15px;
+    }
+    header{
+        font-size: 25px !important;
+    }
+    #score{
+        font-size:16px;
+    }
+    #win{
+        font-size:14px;
+        margin-left: 1px;
+    }
+
+    #subtitle,#player{
+        font-size:18px;
+    }
+
+    #current-score{
+        font-size:14px;
+    }
+
  }
