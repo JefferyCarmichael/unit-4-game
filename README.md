@@ -1,6 +1,6 @@
 # **Crystal Collector!**
 ![GitHub Logo](/assets/images/crystal.jpg)
-### Crystal Collector is a numerical guessing game where the player will guess with numbers.
+_Crystal Collector_ is a numerical guessing game where the player will guess with numbers.
 
 ---
 **Game Rules:**
@@ -20,4 +20,16 @@
 **Game design notes:**
 * Each crystal should have a random hidden value between 1 - 12.
 * The random number shown at the beginning of the game should be between 19 - 120.
-* The game is located at the following url: https://jefferycarmichael.github.io/unit-4-game/
+### Url:
+ https://jefferycarmichael.github.io/unit-4-game/
+ ### GitHub
+ https://github.com/JefferyCarmichael/unit-4-game
+
+ ----
+ ---
+### Technologies Used:
+* Html
+* CSS
+* Javascript
+* JQuery
+* Bootstrap
