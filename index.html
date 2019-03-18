@@ -21,18 +21,17 @@
     <!-- Main Title-->
     <div class="container">
 
-        <div class="row" id="title">
-            <div class="col-sm-6 bg bg-info text-center rounded pt-3" id="subtitle" style="height: 80px;">
+        <div class="row mt-5" id="title">
+            <div class="col-sm-6 offset-sm-3 bg bg-info text-center rounded pt-3" id="subtitle" style="height: 80px;">
                 <header>
                     <h1>Crystal Collector!</h1>
                 </header>
-            </div>
-            <div class="col-sm-3"></div>
-            <div class="col-sm-3"></div>
+            </div>  
         </div>
+
         <!--Rules for the Game-->
-        <div class="row">
-            <div class="col-sm-8 rounded  bg-light pt-3" style="height: 290px;" id="rules">
+        <div class="row mt-2">
+            <div class="col-sm-8 offset-sm-2 rounded  bg-light pt-3" style="height: 290px;" id="rules">
                 <section>
                     <p>You will be given a random number at the start of the game.</p>
                     <br/>
@@ -47,19 +46,19 @@
                     <p>Each time when the game starts, the values of each crystal and the value of the random number will change.</p>
                 </section>
             </div>
-            <div class="col-sm-4"></div>
         </div>
+
         <!--Computer-Gen. Number-->
-        <div class="row" id="score">
-            <div class="col-sm-3 rounded bg-info pt-3" style="height: 70px;">
+        <div class="row mt-2" id="score">
+            <!-- Displays score to be matched -->
+            <div class="col-sm-4 offset-sm-2 rounded bg-info pt-3" style="height: 70px;">
                 <p> Match this #:
                     <span id="random-number"></span>
                 </p>
-
             </div>
 
             <!--Win - Loss  Counter-->
-            <div class="col-sm-2 rounded bg-info pt-3" style="height: 70px;" id="win">
+            <div class="col-sm-4  rounded bg-info pt-3" style="height: 70px;" id="win">
                 <div id="score-board">
 
                     <p>Wins:
@@ -70,49 +69,39 @@
                     </p>
                 </div>
             </div>
-            <div class="col-sm-7"></div>
         </div>
 
 
-        <div class="row">
-
-        </div>
 
         <!--Jewels -->
-        <div class="row">
-            <div class="col-sm-12" style="height: 80px;">
-                <div id="jewelbox">
-                    <img id="jewel1" src="assets/images/blue.gif" alt="blue jewel pic" height="70" width="75">
-                    <img id="jewel2" src="assets/images/purple.gif"alt ="green jewel pic" height="70" width="75">
-                    <img id="jewel3" src="assets/images/yellow.gif" alt="yellow jewel pic" height="70" width="75">
-                    <img id="jewel4" src="assets/images/pink.gif" alt="silver jewel pic" height="70" width="75">
-
-                </div>
-            </div>
+        <div class="row mb-3 ml-3 ">
+            <div class="col-sm-2 mt-3  offset-sm-2 jewel"><img id="jewel1" src="assets/images/blue.gif" alt="blue jewel pic" height="70" width="75"></div>
+            <div class="col-sm-2 mt-3  jewel"><img id="jewel2" src="assets/images/purple.gif"alt ="green jewel pic" height="70" width="75"></div>
+            <div class="col-sm-2 mt-3  jewel"><img id="jewel3" src="assets/images/yellow.gif" alt="yellow jewel pic" height="70" width="75"></div>
+            <div class="col-sm-2 mt-3 jewel"><img id="jewel4" src="assets/images/pink.gif" alt="silver jewel pic" height="70" width="75"></div>
         </div>
 
-        <!--Player's Score-->
+
+        <!--Player's Score Title-->
         <div class="row" id="title2">
-            <div class="col-sm-4 rounded  bg-info pt-2" style="height: 40px;">
+            <div class="col-sm-4 offset-sm-4 rounded  bg-info pt-2" style="height: 40px;">
                 <div id="current-score">
                     <h1>Your total score is:</h1>
                 </div>
             </div>
-            <div class="col-sm-8"></div>
         </div>
 
+      <!-- Player's Score -->
         <div class="row" id="player">
-            <div class="col-sm-4 rounded bg-info pt-2" style="height: 40px;">
+            <div class="col-sm-4 offset-sm-4 rounded bg-info pt-2" style="height: 40px;">
                 <span id="current-score-counter"></span>
             </div>
-            <div class="col-sm-8"></div>
         </div>
 
-    </div>
 
-</body>
-<footer>
+<!-- Javascript links -->
     <script src="assets/javascript/game.js" type="text/javascript"></script>></script>
-</footer>
+        
+</body>
 
 </html>

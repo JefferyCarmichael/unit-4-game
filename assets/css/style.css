@@ -4,7 +4,7 @@
    
   }
 
-  #title,#rules,#score,#jewelbox,#title2,#player{
+  #title,#rules,#score,#title2,#player{
     margin-top: 8px;
 }
 
@@ -20,12 +20,13 @@
 
 #rules{
     font-size: 18px;
-    text-shadow: 2px 3px 7px rgb(133, 130, 130);  
+    font-weight: 500;
+    text-shadow: 2px 2px 5px rgb(133, 130, 130);  
     box-shadow: inset 0 0 10px 2px rgb(65, 62, 62);  
 }
 
 #win{
-    margin-left: 10px; 
+    margin-left: 1px; 
     font-size: 20px;
     text-shadow: 2px 2px 6px rgb(77, 75, 75);  
 }
@@ -45,21 +46,19 @@
     text-shadow: 2px 2px 6px rgb(83, 82, 82); 
 }
 
+.jewel{
+    width: 80px;
+}
+
 body{
-    /* background-image: url("../images/glass-1462395_1920.jpg"); */
     background-image: linear-gradient(rgba(27, 27, 32, 0.705), rgba(40, 81, 104, 0.274), rgba(73, 80, 165, 0.507),rgba(27, 27, 32, 0.705)), url("../images/glass-1462395_1920.jpg");   
-    opacity: .8;
+    opacity: .9;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
  
-#jewelbox{
-   position: relative;
-   right: 11px;
-}
-
 h1,.pt-3,.p-2{
     font-family: 'Oleo Script Swash Caps', cursive;
     font-family: 'Metamorphous', cursive;
@@ -70,15 +69,9 @@ h1,.pt-3,.p-2{
     
  }
 
-img {
-    box-shadow: inset 0 0 10px rgb(59, 58, 58);
-    border-radius: 4px;
- }
-
  .bg-info{
     box-shadow: inset 0 0 15px rgb(61, 58, 58);    
  }
-
 
  @media screen and (max-width: 998px){
     #rules{
@@ -124,6 +117,12 @@ img {
 
     #current-score{
         font-size:14px;
+    }
+
+    img{
+        height: 50px;
+        width: 55px;
+
     }
 
  }

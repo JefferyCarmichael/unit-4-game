@@ -9,32 +9,30 @@ shuffle();
 
 // Click functions for the 4 jewels
 
-
+// Jewel1
 $("#jewel1").on("click", function () {
     total = total + jewel1;
-
     $("#current-score-counter").html(total);
     play();
 });
 
-
+// Jewel 2
 $("#jewel2").on("click", function () {
     total = total + jewel2;
-
     $("#current-score-counter").html(total);
     play();
 });
 
+// Jewel 3
 $("#jewel3").on("click", function () {
     total = total + jewel3;
-
     $("#current-score-counter").html(total);
     play();
 });
 
+// Jewel 4
 $("#jewel4").on("click", function () {
     total = total + jewel4;
-
     $("#current-score-counter").html(total);
     play();
 });
